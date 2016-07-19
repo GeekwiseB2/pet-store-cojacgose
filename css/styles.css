@@ -49,10 +49,31 @@
 }
 
 /*===============================products/*===============================*/
-.thumbnail {
-  background-color:#f1f1f1;
-  margin-bottom:1px;
+.padding-0 .col-md-4 {
+  padding-left:0px !important;
+  padding-right:0px !important;
 }
+.thumbnail {
+  background-color:#EDF1F4;
+  padding:10px;
+  margin-right:10px;
+  border:none;
+}
+
+.thumbnail .btn {
+  background-color:#5BC0DE;
+  border:none;
+  padding:2px 8px;
+}
+
+.thumbnail .btn:hover {
+  background-color:#989fa1;
+}
+
+.thumbnail h3 {
+  font-weight:bold;
+}
+
 .featured-text {
   text-transform:uppercase;
   font-weight:bold;
@@ -70,6 +91,12 @@
 
 .adopt-text a {
   text-transform: uppercase;
+  color:#5BC0DE;
+}
+
+.adopt-text a:hover {
+  text-decoration: none;
+  color:#989fa1;
 }
 
 /*======================footer===================*/
@@ -80,24 +107,30 @@
   color:#FFF;
 }
 
-.footer a {
-  color: #FFF;
-}
-
 .footer-logo {
   width:110px;
 }
 
 .footer-cols {
-    border-right:1px solid #333;
+  border-right:1px solid #333;
 }
 
 .footer address:hover, .footer address a:hover {
   color:#ff827b;
+  text-decoration:none;
 }
 
 .footer address {
   padding-left:20px;
+}
+
+.footer a {
+  color: #FFF;
+}
+
+.soc-link:hover {
+  color:#ff827b;
+  text-decoration:none;
 }
 
 .inner-footer {
@@ -112,12 +145,35 @@ i {
   padding-right:6px;
 }
 
-.soc-link:hover {
-  color:#ff827b;
-  text-decoration: none;
-}
-
 .copy {
   color:#4c4c4c;
 }
 /*====================== end footer===================*/
+
+/*========CONTACT STYLES========*/
+
+.profile-img {
+  height:210px; width:auto;
+  padding:20px 40px 0px 20px;
+}
+
+.profile-text {
+  font-weight:600;
+}
+
+.phone-table {
+  margin-top: 20px;
+}
+.phone-table tr {
+  border-bottom:1.5px solid #BBB;
+}
+
+.phone-table th {
+  padding-bottom:10px;
+  font-size:18px;
+}
+
+.phone-table td {
+  padding:10px 120px 10px 0px;
+  font-size:16px; font-weight:bold;
+}
